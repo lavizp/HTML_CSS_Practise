@@ -1,24 +1,59 @@
 body{
-    background-color: whitesmoke;
+	background-color: aqua;
+	margin: 0;
 }
 
-.header-bg{
-    height: 80px;
-    background-color: wheat;
+.container{
+	max-width: 1100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 0 30px;
+	flex-wrap: wrap;
+	
 }
-.header-name{
-    margin: 0 auto;
-    margin-top: 10px;
-    text-align: center;
+
+.header{
+	height: 100px;
+	background-color: antiquewhite;
 }
-.spacer{
-    height: 10px;
+.navbar{
+	align-self: center;
+	justify-self: center;
 }
-.main-container{
-    background-color: red;
-    height: 500px;
-    width: 100%;
+.nav-text{
+	color: aquamarine;
+	padding-left: 40%;
+
 }
-.main-textarea{
-    
+.items img{
+	max-width: 500px;
+	margin: 10px;
+}
+
+.main-sec{
+	min-height: 500px;
+	background-color: blue;
+}
+
+.items h1,h2{
+	color: white;
+	font-size: 50px;
+}
+
+.projects{
+	min-height: 400px;
+}
+.projects h1{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+.proj-img img{
+	max-height: 300px;
+}
+.proj-text h1{
+	margin: 0;
+	align-self: baseline;
 }
