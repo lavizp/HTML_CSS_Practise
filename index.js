@@ -1,11 +1,11 @@
-function CretaeCircle(radius){
-return{
-    radius,
-    draw: function(){
-        console.log('draw');
+class CretaeCircle {
+    constructor(radius) {
+        this.radius = radius;
+        this.draw = function () {
+            console.log('circle');
+        };
     }
 }
-}
 
-const circle = CretaeCircle(2);
+const circle = new CretaeCircle(2);
 circle.draw();
